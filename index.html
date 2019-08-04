@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <style>
+        html,body
+        {
+            font-family: 'Josefin Sans', sans-serif;
+            user-select: none;
+        }
+        body::-webkit-scrollbar
+        {
+            width: 6px;
+        }
+        body::-webkit-scrollbar-thumb
+        {
+            background-color: green;
+        }
+        body::-webkit-scrollbar-track
+        {
+            background-color: rgb(34, 34, 34)
+        }
+        #loading{
+          width:100%;
+          height:100vh;
+          position: fixed;
+          z-index:99999;
+          background: #FFF url('load.gif') no-repeat center;
+        }
+        .div1{
+ 
+          width:100%;
+  
+        border:1px solid transparent;
+          background-color: gray;
+          padding-bottom: 20px;
+          
+         
+        }
+        
+ .div2{
+          background-color: rgb(226, 223, 223);
+          height:20vh;
+          width:100%;
+      
+        }
+       
+        @media only screen and (max-width:700px){
+          .h4{
+            font-size:40px;
+          }
+        }
+      
+.d1{
+  margin: 10px;
+}
+  .divv{
+    background-color: black;
+    color:white;
+    
+  
+  }   
+   
+        </style>
+</head>
+<body onload="myfunction()">
+  <div id="loading"></div>
+<div>
+ <div>
+    <nav class="navbar navbar-light bg-dark">
+        <span class="navbar-brand h1 " style="font-weight: bold;  color:white;">Agra Tourism &nbsp;&nbsp;<img src="taj2.png" style="height:40px; width:40px; color:white;"></span>
+      </nav>
+ </div> 
+
+ 
+
+ <div class="d1">   
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"   >
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3" ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner"  >
+    <div class="carousel-item active" >
+      <img src="aa.jpg" style="height:100vh; border:2px solid brown;"   class="d-block w-100 " alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="bb.jpg" style="height:100vh; border:2px solid brown;"  class="d-block w-100" alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="cc.jpg" style="height:100vh; border:2px solid brown;"  class="d-block w-100" alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="dd.jpg"  style="height:100vh; border:2px solid brown;" class="d-block w-100" alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="ee.jpg" style="height:100vh; border:2px solid brown;" class="d-block w-100" alt="..." >
+    </div>
+ </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div> 
+
+<div class="div2 ">
+    <div class="mini1 "><h4 class="display-4 h4 " style=" padding-top:15px;  font-family: 'Kaushan Script', cursive; text-align: center;">Monuments <span style="color:red; font-family: 'Kaushan Script', cursive;">- Agra</span></h4></div>
+   </div>
+
+ <div class="div1" >
+<div class="card mb-0 " style="margin:20px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="boot1.jpg" class="card-img" style="border:5px solid black;" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold">Taj Mahal</h5>
+        <p class="card-text">Taj Mahal is indeed a beautiful place. When you visit, make sure you take a picture of yourself and your spouse with the mausoleum as the background...who knows, the love that the emperor had for his wife to dedicate this kind of resources for her remembrance after death might rub off on you.
+            The Taj Mahal was constructed with materials from all over the world, and over 20,000 people were used to move building materials. It is generally thought that Ustad Ahmad Lahauri was in charge of the construction. 
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-0 " style="margin:20px;">
+    <div class="row no-gutters">
+    <div class="col-md-8">
+        <div class="card-body">
+      <h5 class="card-title font-weight-bold">Agra Fort</h5>
+        <p class="card-text"> Agra Fort is a historical fort in the city of Agra in India. It was the main residence of the emperors of the Mughal Dynasty until 1638, when the capital was shifted from Agra to Delhi. Before capture by the British, the last Indian rulers to have occupied it were the Marathas. In 1983, the Agra fort has been inscribed as UNESCO World Heritage site.[1] It is about 2.5 km northwest of its more famous sister monument, the Taj Mahal. The fort can be more accurately described as a walled city.</p>
+    </div>
+    </div>
+    
+    <div class="col-md-4">
+      
+          <img src="dd.jpg" class="card-img" alt="..." style="border:5px solid black;">
+       
+
+      </div>
+    </div>
+  </div>
+
+<div class="card mb-0 " style="margin:20px;" >
+ 
+  <div class="row no-gutters" >
+    <div class="col-md-4">
+      <img src="bb.jpg"  style="border:5px solid black;" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title font-weight-bold">Taj Museum</h5>
+        <p class="card-text">Taj Mahal Museum in Agra is one of the most famous museums in Agra, which is visited by hundreds of tourists who wish to delve deep into the history of Taj. The Taj Museum is located within the complex of Taj Mahal. It is located to the left of the platform near the chief gate of the Taj Mahal. The Taj Museum of Agra provides the opportunity to the tourists and visitors to take a close look at the original pieces of drawings of this magnificent marble monument. 
+
+         
+
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card  mb-0" style="margin:20px;">
+    <div class="row no-gutters">
+    <div class="col-md-8">
+        <div class="card-body">
+      <h5 class="card-title font-weight-bold">Akbar's Tomb Sikandra</h5>
+        <p class="card-text"> Akbar’s tomb is the resting place of Akbar, Mughal Emperor. The tomb is built on an area covering 119 acres during early 17th century. This is the mausoleum that Akbar chose for himself but could not finish it during his time. The monument has Mughal elements like red sandstone and marble with inlay works and geometric patterns.
+           
+       </p>
+          </div>
+    </div>
+    
+    <div class="col-md-4">
+      
+          <img src="top.jpg" class="card-img" alt="..." style="border:5px solid black;">
+ 
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+<div class="divv p-5">
+  <div class="row ">
+  <div class=" col-lg-4 col-md-4 col-sm-4 col-12 d-block " >
+                      
+                      <h4 class="text-center m-2  font-weight-bold" >About Us</h4>
+                      <p class="text-center "> Agra Tourism welcome's you to visit the city of mugal's emperors.Get the official packages Now. Visit on special discount for maximum days.</p>
+                
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block   text-center " >
+
+                          <h4 class="text-center m-1 font-weight-bold" >Feedback</h4>
+                          <input type="text" class="text-center m-1" style="background-color:white;"><br><br>
+                          <a href="#" class="btn font-weight-bold text-center mb-3"  style=" border:2px solid white; color:white; "  >Submit</a>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-12 d-block   text-center " >
+
+                            <h4 class="text-center font-weight-bold " >Contact Us</h4>
+                            <p class="text-center">Enjoy your visit and Feel free to contact us at you way to visit according to you:
+                              <h5 class="card-title " style="color:white"> Share : &nbsp;<i class="fab fa-twitter"></i>&nbsp;&nbsp;<i class="fab fa-facebook-f"></i>&nbsp;&nbsp;<i class="fab fa-linkedin-in"></i>&nbsp;&nbsp;<i class="fab fa-google-plus-g"></i></h5>
+                            </div>
+  </div>
+  <script>
+
+   var preloader= document.getElementById('loading');
+   function myfunction(){
+ preloader.style.display='none';
+ 
+  }
+
+  
+  </script>
+
+ </body>
+</html>
